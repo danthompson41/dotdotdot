@@ -1,7 +1,11 @@
 #!/bin/sh
 
+# Utilities
 alias c="bat"
 alias gits="git status"
 alias l="exa -al"
 alias zzz="source ~/.zshrc"
 alias zzv="vim ~/.zshrc"
+
+# Kubernetes and Docker
+alias k="kubectl"
