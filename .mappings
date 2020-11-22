@@ -1,0 +1,9 @@
+[general]
+"alacritty.yml"             = "~/.config/alacritty/alacritty.yml"
+"aliases"                   = "~/.aliases"
+"git/gitconfig"             = "~/.gitconfig"
+"git/gitignore"             = "~/.gitignore"
+"tmux/tmux.conf"            = "~/.tmux.conf"
+"vim/vimrc"                 = "~/.vimrc"
+"zsh/starship.toml"         = "~/.config/starship.toml"
+"zsh/zshrc"                 = "~/.zshrc"
