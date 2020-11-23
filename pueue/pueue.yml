@@ -1,0 +1,17 @@
+---
+shared:
+  port: "6924"
+  secret: "w3tKb##GwHf7)q3DA#A("
+  pueue_directory: /Users/dthompson/.local/share/pueue
+  use_unix_socket: false
+  unix_socket_path: /Users/dthompson/.local/share/pueue/pueue_dthompson.socket
+client:
+  read_local_logs: true
+  show_confirmation_questions: false
+  max_status_lines: ~
+daemon:
+  default_parallel_tasks: 1
+  pause_on_failure: false
+  callback: "toastify send \"ID {{ id }}: {{ command }}\" \"Result: {{ result }}\nTime: $(bc <<< \"{{end}} - {{start}}\") seconds\n\nFrom {{ path }}\""
+  groups: {}
+

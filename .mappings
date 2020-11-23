@@ -7,3 +7,4 @@
 "vim/vimrc"                 = "~/.vimrc"
 "zsh/starship.toml"         = "~/.config/starship.toml"
 "zsh/zshrc"                 = "~/.zshrc"
+"pueue/pueue.yml"           = "~/Library/Preferences/pueue/pueue.yml"

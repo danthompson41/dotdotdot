@@ -9,3 +9,13 @@ alias zzv="vim ~/.zshrc"
 
 # Kubernetes and Docker
 alias k="kubectl"
+alias d="docker"
+
+# Pueue
+alias p="pueue"
+alias pa="pueue add"
+alias pst="pueue status"
+alias prt="pueue reset"
+alias pls="pueue log"
+alias pf="pueue follow"
+
