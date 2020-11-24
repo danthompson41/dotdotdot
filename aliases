@@ -6,6 +6,7 @@ alias gits="git status"
 alias l="exa -al"
 alias zzz="source ~/.zshrc"
 alias zzv="vim ~/.zshrc"
+alias zza="vim ~/.aliases"
 
 # Kubernetes and Docker
 alias k="kubectl"
@@ -21,6 +22,8 @@ alias pf="pueue follow"
 
 # Skim
 alias vs="vim \$(sk)"
+alias cds="cd \"\$(fd -t d -H -E .git| sk)\""
+alias cdh="cd \"\$(fd -t d --search-path ~/ -H -E .git| sk)\""
 alias ch="history 0 | cut -c 8- | sk --no-sort --tac | pbcopy"
 alias sr="sk --ansi -i -c 'rg --color=always --line-number \"{}\"'"
 alias vsr="vim \$(sr | sed -e \"s/:.*//g\")"

@@ -14,7 +14,6 @@ Plug 'tpope/vim-fugitive'       " Git blame support
 Plug 'tpope/vim-vinegar'        " Better finder support
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
 " Initialize plugin system
 call plug#end()
 
@@ -42,6 +41,10 @@ set spell
 
 " Mark the 80 character limit
 set colorcolumn=80
+
+" Buffer management
+nnoremap <C-m> :bnext<CR>
+nnoremap <C-k> :bprev<CR>
 
 " Map control-p to skim in normal mode
 map <C-p> :SK<CR>
