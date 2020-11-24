@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'LnL7/vim-nix'
 Plug 'airblade/vim-gitgutter'   " Display git changes
+Plug 'ap/vim-buftabline'        " Tabline!
 Plug 'arcticicestudio/nord-vim' " Colorscheme
 Plug 'djjcast/mirodark'         " Colorscheme
 Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
